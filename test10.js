@@ -20,7 +20,7 @@ function insert(num) {
 
     var exp = document.form.display.value;
 
-    document.form.display.value = exp.substring(0, exp.length - 2);
+    document.form.display.value = exp.substring(0, exp.length -1);
 
   }
 
